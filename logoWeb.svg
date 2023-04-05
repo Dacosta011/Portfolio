@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="353.427" height="115.601" viewBox="0 0 353.427 115.601">
+  <g id="logo_web" data-name="logo web" transform="translate(-208.573 -248.399)">
+    <line id="Línea_1" data-name="Línea 1" y1="93.92" x2="46.065" transform="translate(210.818 249.5)" fill="none" stroke="#d90b1c" stroke-width="5"/>
+    <line id="Línea_2" data-name="Línea 2" x1="46.065" y1="93.92" transform="translate(256.212 249.5)" fill="none" stroke="#d90b1c" stroke-width="5"/>
+    <line id="Línea_3" data-name="Línea 3" x2="46.065" transform="translate(233.851 296.46)" fill="none" stroke="#d90b1c" stroke-width="5"/>
+    <path id="Trazado_1" data-name="Trazado 1" d="M406.5,270.5c24.12,70.934,46.067,0,46.067,0" transform="translate(-172.649 25.96)" fill="none" stroke="#d90b1c" stroke-width="5"/>
+    <text id="Dev._" data-name="Dev.
+" transform="translate(316 305)" font-size="30" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="32">Dev.</tspan></text>
+  </g>
+</svg>
