@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import navBarStyles from "./styles/NavBar.module.scss";
 import { useIsScrolling } from "./hooks/useIsScrolling";
 import { useResize } from "./hooks/useResize";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 function NavBar() {
   const isscrolling = useIsScrolling();
@@ -22,13 +22,13 @@ function NavBar() {
     >
       {isMovil || isTablet || isscrolling ? (
         <img
-          src="../public/logoMobil.svg"
+          src="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/logoMobil.svg?alt=media&token=87b85612-3991-4f2a-adfe-56070571d0d1"
           alt="This is the logo of the web for the desktop devices"
           className={navBarStyles.navbarLogoMobil}
         />
       ) : (
         <img
-          src="../public/logoWeb.svg"
+          src="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/logoWeb.svg?alt=media&token=bfaed52e-9eb8-43a3-a416-e18c9b44ec43"
           alt="This is the logo of the web for the desktop devices"
           className={navBarStyles.navbarLogoWeb}
         />
@@ -62,9 +62,7 @@ function NavBar() {
           </li>
         </ul>
       </nav>
-      <img
-        src="../public/menuMobil.svg"
-        alt="This is the hamburguer logo for the menu in movil devices"
+      <AiOutlineMenu
         className={
           isMovil ? navBarStyles.navbarMenu : navBarStyles.navbarMenuHidden
         }

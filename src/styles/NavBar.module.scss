@@ -25,6 +25,7 @@
     padding: 0;
     margin: 0;
     width: 30%;
+    min-width: 20rem;
     a{
         color: white;
         text-decoration: none;
@@ -84,6 +85,10 @@
 
 .navbarMenu{
     cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    margin: 0;
 }
 
 @media only screen and (min-width: 768px ){

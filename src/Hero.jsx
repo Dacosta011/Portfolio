@@ -16,7 +16,10 @@ function Hero() {
           <FaArrowDown className={heroStyles.arrowLogo} />
         </div>
         <div className={heroStyles.heroImageContainer}>
-          <img src="../public/presentation.png" alt="" />
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/presentation.png?alt=media&token=10ae0d94-c675-44b1-b0a1-90762c14ade2"
+            alt=""
+          />
         </div>
       </div>
     </header>
