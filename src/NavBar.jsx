@@ -16,9 +16,6 @@ function NavBar() {
           ? [navBarStyles.navbar, navBarStyles.navbarScroll].join(" ")
           : [navBarStyles.navbar].join(" ")
       }
-      style={{
-        backgroundColor: isscrolling ? "var(--primary-color)" : "transparent",
-      }}
     >
       {isMovil || isTablet || isscrolling ? (
         <img
@@ -37,6 +34,7 @@ function NavBar() {
         className={navBarStyles.navbarOpen}
         style={{
           opacity: isMenuOpen ? "1" : "0",
+          height: isMenuOpen ? "100vh" : "0",
         }}
       >
         <AiOutlineClose

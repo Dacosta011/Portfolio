@@ -1,0 +1,65 @@
+.container{
+    position: relative;
+    padding: 1rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8rem;
+    height: 4rem;
+    background: var(--secondary-color);
+    opacity: 0.5;
+    border-radius: 0 0 4rem 4rem;
+}
+
+.companies{
+    display: flex;
+    margin-top: 2rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    gap: 1rem;
+    border-bottom: 2px solid rgb(189, 189, 189);
+    margin-bottom: 1rem;
+}
+
+.company{
+    position: relative;
+    padding: 0.7rem 1.3rem;
+    span{
+        font-size: 1rem;
+        color: black;
+        transition: .3s ;
+    }
+}
+
+.companyActive{
+    transition: 1s;
+    span{
+        color: var(--secondary-color);
+        font-weight: bold;
+    }
+}
+
+.companyActive::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.2rem;
+    background: var(--secondary-color);
+}

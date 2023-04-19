@@ -9,6 +9,7 @@
     top: 0;
     left: 0;
     z-index: 100;
+    background-color: var(--primary-color);
 }
 
 .navbarScroll{
@@ -51,11 +52,11 @@
 .navbarOpen{
     opacity: 0;
     display: flex;
-    position: fixed;
-    z-index: 100 !important;
+    position: absolute;
+    z-index: 1000;
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    height: 0;
     right: 0;
     top: 0;
     transition: 0.5s ease-in-out;
