@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "./Hero";
-import NavBar from "./NavBar";
 import "./styles/App.scss";
 import Experience from "./Experience";
 import { I18nextProvider } from "react-i18next";
@@ -26,7 +25,6 @@ function App() {
   console.log(navigator.language);
   return (
     <I18nextProvider i18n={i18next}>
-      <NavBar />
       <Hero />
       <Experience />
     </I18nextProvider>

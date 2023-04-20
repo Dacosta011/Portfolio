@@ -16,6 +16,9 @@ function NavBar() {
           ? [navBarStyles.navbar, navBarStyles.navbarScroll].join(" ")
           : [navBarStyles.navbar].join(" ")
       }
+      style={{
+        backgroundColor: isscrolling ? "var(--primary-color)" : "transparent",
+      }}
     >
       {isMovil || isTablet || isscrolling ? (
         <img

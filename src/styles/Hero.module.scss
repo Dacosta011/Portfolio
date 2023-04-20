@@ -1,24 +1,24 @@
 .heroContainer{
-    height: 90vh;
-    min-height: 90vh;
-    max-height: 90vh;
-    background-color: var(--primary-color);
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
     position: relative;
     z-index: 1;
+    padding-top: 50%;
 }
 
 .titleImageConatiner{
-    height: 90vh;
-    min-height: 90vh;
-    max-height: 90vh;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
 }
 
 .titleImageConatiner{
     display: flex;
     justify-content: center;
-    height: 90vh;
-    min-height: 90vh;
-    max-height: 90vh;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
     padding: 1rem;
     .titleContainer{
         display: flex;
@@ -56,18 +56,22 @@
 
 @media only screen and (min-width: 1482px){
     .heroContainer{
+        padding-top: 0;
+    }
+    .background{
         background-color: transparent;
         background-image: url("https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/heroBg.svg?alt=media&token=886b4acf-0e93-4fee-9a1a-3f0506a68a67");
+        background-size: cover;
     } 
     .heroImageContainer{
         display: block;
     }
 
     .titleImageConatiner{
-        margin-top: 5rem;
         align-items: center;
+        justify-content: flex-end;
         gap: 3rem;
-        padding: 0 9rem;
+        padding: 30% 9rem;
         .titleContainer{
             align-items: flex-start;
             h1{
