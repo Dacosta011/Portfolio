@@ -1,0 +1,44 @@
+.skilsContainer{
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.skill{
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    max-height: 40rem;
+    .logo{
+        width: 2rem;
+        height: 2rem;
+        margin: 0 auto;
+        color: var(--secondary-color);
+    }
+    .title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 1rem 0;
+    }
+    .description{
+        padding: 1.5rem;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 1482px){
+    .skilsContainer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding:  9rem;
+    }
+    .skill{
+        width: 30%;
+    }
+}
