@@ -1,15 +1,25 @@
 .skilsContainer{
+    display: flex;
     padding: 2rem 1rem;
     background-color: var(--primary-color);
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    width: 100%;
+    overflow-x: auto;
+    // overflow-x: scroll;
+    // white-space: nowrap;
+    scroll-snap-type: x mandatory;  
+    gap: 1rem;
+    height: auto;
 }
 
 
 .skill{
+    position: sticky;
+    left: 0;
+    flex: 0 0 auto; 
+    width: 95%;
     padding: 1rem;
     background-color: white;
+    scroll-snap-align: center;
     text-align: center;
     border-radius: 1rem;
     max-height: 40rem;
@@ -24,11 +34,16 @@
         font-weight: 600;
         margin: 1rem 0;
     }
-    .description{
-        padding: 1.5rem;
-        font-size: 1rem;
-        font-weight: 400;
-        text-align: justify;
+    .descripContainer{
+        .description{
+            width: 100%;
+            padding: 1.5rem;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: justify;
+            position: relative;
+            display: block;
+        }
     }
 }
 

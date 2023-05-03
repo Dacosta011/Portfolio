@@ -6,7 +6,9 @@ function Skil({ title, description, children }) {
     <div className={SkillsStyles.skill}>
       {children}
       <p className={SkillsStyles.title}>{title}</p>
-      <p className={SkillsStyles.description}>{description}</p>
+      <div className={SkillsStyles.descripContainer}>
+        <p className={SkillsStyles.description}>{description}</p>
+      </div>
     </div>
   );
 }

@@ -8,6 +8,7 @@ import i18next from "i18next";
 import headerEs from "../i18n/es/header.json";
 import headerEn from "../i18n/en/header.json";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -29,6 +30,7 @@ function App() {
       <Hero />
       <Experience />
       <Skills />
+      <Projects />
     </I18nextProvider>
   );
 }
