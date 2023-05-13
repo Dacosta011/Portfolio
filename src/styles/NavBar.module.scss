@@ -27,7 +27,8 @@
     margin: 0;
     width: 30%;
     min-width: 20rem;
-    a{
+    cursor: pointer;
+    span{
         color: white;
         text-decoration: none;
     }
@@ -40,7 +41,8 @@
     align-items: center;
     list-style: none;
     gap: 3rem;
-    a{
+    cursor: pointer;
+    span{
         color: black;
         text-decoration: none;
         font-size: 2rem;

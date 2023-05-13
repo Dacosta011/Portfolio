@@ -6,7 +6,7 @@ import SkillsStyles from "./styles/Skills.module.scss";
 
 function Skills() {
   return (
-    <section className={SkillsStyles.skilsContainer}>
+    <section className={SkillsStyles.skilsContainer} id="skillsSection">
       <Skil
         title="React Js"
         description="Tengo experiencia en la construcción de interfaces de usuario interactivas y dinámicas para aplicaciones web utilizando la biblioteca de JavaScript React.js. He trabajado con tecnologías relacionadas como Redux, React Router, Material UI, y Styled Components."

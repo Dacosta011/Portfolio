@@ -20,8 +20,8 @@ function ExperienceDetail({ show, position, company, dates, details }) {
             {dates[0]} - {dates[1]}
           </p>
           <ul className={ExpDetailStyles.detailList}>
-            {details.map((detail) => (
-              <li>
+            {details.map((detail, index) => (
+              <li key={index}>
                 <AiFillCaretRight />
                 <span>{detail}</span>
               </li>

@@ -25,7 +25,7 @@ function Feature() {
   };
 
   return (
-    <section className={ExperienceStyles.container}>
+    <section className={ExperienceStyles.container} id="experienceSection">
       <p className={ExperienceStyles.title}>My Experience</p>
 
       <div className={ExperienceStyles.companyDetail}>

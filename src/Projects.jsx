@@ -4,7 +4,7 @@ import Project from "./Project";
 
 function Projects() {
   return (
-    <section className={ProjectsStyles.container}>
+    <section className={ProjectsStyles.container} id="projectsScection">
       <Project
         title="SOCIAL NETWORK MOVIL APP"
         subtitle="React Native App"

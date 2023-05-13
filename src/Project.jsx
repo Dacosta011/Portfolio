@@ -19,8 +19,8 @@ function Project({
         <p className={ProjectsStyles.description}>{description}</p>
         <div className={ProjectsStyles.tegnologies}>
           <ul className={ProjectsStyles.tegnologiesList}>
-            {tegnologies.map((tegnology) => (
-              <li>
+            {tegnologies.map((tegnology, index) => (
+              <li key={index}>
                 <TiTick />
                 {tegnology}
               </li>

@@ -3,11 +3,20 @@ import navBarStyles from "./styles/NavBar.module.scss";
 import { useIsScrolling } from "./hooks/useIsScrolling";
 import { useResize } from "./hooks/useResize";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import jump from "jump.js";
 
 function NavBar() {
   const isscrolling = useIsScrolling();
   const { isMovil, isDesktop, isTablet } = useResize();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleScrool = (section) => {
+    if (isMovil) setIsMenuOpen(!isMenuOpen);
+    jump(section, {
+      duration: 1000,
+      offset: -100,
+    });
+  };
 
   return (
     <div
@@ -49,17 +58,40 @@ function NavBar() {
             isMenuOpen ? navBarStyles.navbarListOpen : navBarStyles.navbarList
           }
         >
-          <li>
-            <a href="">My Skills</a>
+          <li
+            onClick={() => {
+              handleScrool("#experienceSection");
+            }}
+          >
+            <span>Experience</span>
           </li>
-          <li>
-            <a href="">My Work</a>
+          <li
+            onClick={() => {
+              handleScrool("#skillsSection");
+            }}
+          >
+            <span>My Skills</span>
           </li>
-          <li>
-            <a href="">About</a>
+          <li
+            onClick={() => {
+              handleScrool("#projectsScection");
+            }}
+          >
+            <span>My Work</span>
           </li>
-          <li>
-            <a href="">Contact</a>
+          <li
+            onClick={() => {
+              handleScrool("#aboutSection");
+            }}
+          >
+            <span>About</span>
+          </li>
+          <li
+            onClick={() => {
+              handleScrool("#contactSection");
+            }}
+          >
+            <span>Contact</span>
           </li>
         </ul>
       </nav>

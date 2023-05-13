@@ -9,7 +9,7 @@ import {
 
 function About() {
   return (
-    <div className={AboutStyles.aboutContainer}>
+    <section className={AboutStyles.aboutContainer} id="aboutSection">
       <div className={AboutStyles.image}>
         <img
           src="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/1646760462399-removebg-preview.png?alt=media&token=6b4418d6-c473-4a85-9203-3bd622d01adc"
@@ -47,7 +47,7 @@ function About() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

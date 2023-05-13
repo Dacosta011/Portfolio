@@ -10,6 +10,7 @@ import headerEn from "../i18n/en/header.json";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import About from "./About";
+import Contact from "./Contact";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -33,6 +34,7 @@ function App() {
       <Skills />
       <Projects />
       <About />
+      <Contact />
     </I18nextProvider>
   );
 }
