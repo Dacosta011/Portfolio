@@ -12,6 +12,7 @@ function Projects() {
         image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook%20Air%20-%201.png?alt=media&token=2498aa25-5376-4014-b594-ea72eca41ab3"
         sourceBut="https://github.com/Dacosta011/SocialMediaApp"
         tegnologies={["React Native", "Firebase", "Redux", "Expo"]}
+        left={true}
       />
       <Project
         title="SOCIAL NETWORK MOVIL APP"
@@ -20,6 +21,7 @@ function Projects() {
         image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook%20Air%20-%201.png?alt=media&token=2498aa25-5376-4014-b594-ea72eca41ab3"
         sourceBut="https://github.com/Dacosta011/SocialMediaApp"
         tegnologies={["React Native", "Firebase", "Redux", "Expo"]}
+        left={false}
       />
       <Project
         title="SOCIAL NETWORK MOVIL APP"
@@ -28,6 +30,7 @@ function Projects() {
         image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook%20Air%20-%201.png?alt=media&token=2498aa25-5376-4014-b594-ea72eca41ab3"
         sourceBut="https://github.com/Dacosta011/SocialMediaApp"
         tegnologies={["React Native", "Firebase", "Redux", "Expo"]}
+        left={true}
       />
     </section>
   );

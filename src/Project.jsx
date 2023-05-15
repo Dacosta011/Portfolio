@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectsStyles from "./styles/Projects.module.scss";
 import { TiTick } from "react-icons/ti";
+import { useResize } from "./hooks/useResize";
 
 function Project({
   title,
@@ -10,9 +11,24 @@ function Project({
   liveBut,
   image,
   tegnologies,
+  left = false,
 }) {
+  const { isDesktop } = useResize();
+
+  console.log(isDesktop);
+
   return (
-    <div className={ProjectsStyles.project}>
+    <div
+      className={ProjectsStyles.project}
+      style={{
+        flexDirection:
+          isDesktop && left
+            ? "row"
+            : !isDesktop
+            ? "column-reverse"
+            : "row-reverse",
+      }}
+    >
       <div className={ProjectsStyles.info}>
         <p className={ProjectsStyles.title}>{title}</p>
         <p className={ProjectsStyles.subtitle}>{subtitle}</p>

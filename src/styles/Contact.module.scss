@@ -22,6 +22,16 @@ input {
         gap: 1rem;
     }
 }
+
+.emailName{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	flex-direction: column;
+	.input{
+		width: 100%;
+	}
+}
 .input {
 	display: flex;
 	flex-direction: column-reverse;
@@ -74,5 +84,35 @@ input {
 	border: 0;
 	&:focus {
 		outline: 0;
+	}
+}
+
+@media only screen and (min-width: 1482px){
+	.contactContainer{
+		height: 90vh;
+		padding: 0 9rem;
+		h1{
+			font-size: 2rem;
+		}
+		form{
+			width: 100%;
+		}
+		.formContainer{
+			width: 100%;
+		}
+		.emailName{
+			display: flex;
+			justify-content: center;
+			flex-direction: row;
+			width: 100%;
+			gap: 1rem;
+			margin-bottom: 6rem;
+			.input{
+				width: 40%;
+			}
+		}
+
+		
+		
 	}
 }

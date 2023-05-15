@@ -1,4 +1,5 @@
 .aboutContainer{
+    position: relative;
     width: 100%;
     margin-top: 5rem;
     display: flex;
@@ -79,5 +80,49 @@
                 }
             }
         }
+    }
+}
+
+
+@media only screen and (min-width: 1482px){
+    .aboutContainer{
+        padding: 0 9rem;
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        .image{
+            width: 50%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                -webkit-filter: none;
+        filter: none;
+
+            }
+
+        }
+        .aboutInfo{
+            width: 50%;
+            margin-left: 20rem;
+            .description{
+                font-size: 1.2rem;
+                width: 80%;
+            }
+        }
+    }
+    .aboutContainer::after{
+        content: "";
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        background-color: var(--secondary-color);
+        right: 0;
+        top: 0;
+        opacity: 0.1;
+        z-index: -1;
     }
 }
