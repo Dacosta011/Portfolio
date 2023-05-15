@@ -9,7 +9,7 @@ function Projects() {
         title="SOCIAL NETWORK MOVIL APP"
         subtitle="React Native App"
         description="Aplicación es una red social en React Native que incluye un feed, chat, notificaciones y perfil de usuario. Se utiliza Firebase para la autenticación, gestión de usuarios, base de datos y notificaciones push en tiempo real."
-        image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook%20Air%20-%201.png?alt=media&token=2498aa25-5376-4014-b594-ea72eca41ab3"
+        image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook-Air.webp?alt=media&token=f29efb10-6224-485c-b00d-13628395fd24"
         sourceBut="https://github.com/Dacosta011/SocialMediaApp"
         tegnologies={["React Native", "Firebase", "Redux", "Expo"]}
         left={true}
@@ -18,7 +18,7 @@ function Projects() {
         title="SOCIAL NETWORK MOVIL APP"
         subtitle="React Native App"
         description="Aplicación es una red social en React Native que incluye un feed, chat, notificaciones y perfil de usuario. Se utiliza Firebase para la autenticación, gestión de usuarios, base de datos y notificaciones push en tiempo real."
-        image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook%20Air%20-%201.png?alt=media&token=2498aa25-5376-4014-b594-ea72eca41ab3"
+        image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook-Air.webp?alt=media&token=f29efb10-6224-485c-b00d-13628395fd24"
         sourceBut="https://github.com/Dacosta011/SocialMediaApp"
         tegnologies={["React Native", "Firebase", "Redux", "Expo"]}
         left={false}
@@ -27,7 +27,7 @@ function Projects() {
         title="SOCIAL NETWORK MOVIL APP"
         subtitle="React Native App"
         description="Aplicación es una red social en React Native que incluye un feed, chat, notificaciones y perfil de usuario. Se utiliza Firebase para la autenticación, gestión de usuarios, base de datos y notificaciones push en tiempo real."
-        image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook%20Air%20-%201.png?alt=media&token=2498aa25-5376-4014-b594-ea72eca41ab3"
+        image="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/MacBook-Air.webp?alt=media&token=f29efb10-6224-485c-b00d-13628395fd24"
         sourceBut="https://github.com/Dacosta011/SocialMediaApp"
         tegnologies={["React Native", "Firebase", "Redux", "Expo"]}
         left={true}

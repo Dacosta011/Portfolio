@@ -12,8 +12,8 @@ function About() {
     <section className={AboutStyles.aboutContainer} id="aboutSection">
       <div className={AboutStyles.image}>
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/1646760462399-removebg-preview.png?alt=media&token=6b4418d6-c473-4a85-9203-3bd622d01adc"
-          alt=""
+          src="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/1646760462399-removebg-preview.webp?alt=media&token=71a544b2-9532-4b31-9730-1f4d6ce1a1e4"
+          alt="Image of David Acosta"
         />
       </div>
       <div className={AboutStyles.aboutInfo}>

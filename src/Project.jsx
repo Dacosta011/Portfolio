@@ -56,7 +56,10 @@ function Project({
         </div>
       </div>
       <div className={ProjectsStyles.image}>
-        <img src={image} alt="" />
+        <img
+          src={image}
+          alt={"Image that show screenshots of the app " + title}
+        />
       </div>
     </div>
   );

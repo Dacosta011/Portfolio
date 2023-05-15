@@ -39,16 +39,20 @@ function Contact() {
               <div className={contactStyles.emailName}>
                 <div className={contactStyles.input}>
                   <input
+                    id="name"
                     name="name"
                     value={values.name}
                     onChange={handleChange}
                     className={contactStyles.input_field}
                     required
                   />
-                  <label className={contactStyles.input_label}>Full name</label>
+                  <label className={contactStyles.input_label} htmlFor="name">
+                    Full name
+                  </label>
                 </div>
                 <div className={contactStyles.input}>
                   <input
+                    id="email"
                     type="email"
                     name="email"
                     value={values.email}
@@ -56,18 +60,23 @@ function Contact() {
                     className={contactStyles.input_field}
                     required
                   />
-                  <label className={contactStyles.input_label}>Email</label>
+                  <label className={contactStyles.input_label} htmlFor="email">
+                    Email
+                  </label>
                 </div>
               </div>
               <div className={contactStyles.input}>
                 <input
+                  id="message"
                   name="message"
                   value={values.message}
                   onChange={handleChange}
                   className={contactStyles.input_field}
                   required
                 />
-                <label className={contactStyles.input_label}>Message</label>
+                <label className={contactStyles.input_label} htmlFor="message">
+                  Message
+                </label>
               </div>
               <div className={contactStyles.action}>
                 <button className={contactStyles.action_button} type="submit">

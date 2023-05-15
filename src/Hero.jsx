@@ -30,8 +30,8 @@ function Hero() {
           </div>
           <div className={heroStyles.heroImageContainer}>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/presentation.png?alt=media&token=10ae0d94-c675-44b1-b0a1-90762c14ade2"
-              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/porfolio-eb408.appspot.com/o/presentation.webp?alt=media&token=84b19171-9928-4fcd-9859-06e2e95e59d1"
+              alt="Image that describe in a creative way the developer David Acosta"
             />
           </div>
         </div>
